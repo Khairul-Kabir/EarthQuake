@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.jdkmars.earthquake.DetailsActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_purple">
+
+    <Button
+        android:id="@+id/buttonMethod1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method 1"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonMethod2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method 2"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonMethod3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method 3"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonMethod4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method 4"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

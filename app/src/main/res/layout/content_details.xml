@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.jdkmars.earthquake.DetailsActivity"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Survive an Earthquake"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Method 1 : If you are in a Vehicle"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop as quickly as safety permits and stay in the vehicle.Avoid stopping near,or under buildings,trees,overpasses,and utility wires.They can fall onto your."
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_purple"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/method1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/buttonprv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="PREV"
+        android:textColor="#fff"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonnxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="center"/>
+</LinearLayout>

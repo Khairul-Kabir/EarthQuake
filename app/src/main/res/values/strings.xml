@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EarthQuake</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_details_2">Details_2Activity</string>
+    <string name="title_activity_method">MethodActivity</string>
+</resources>
